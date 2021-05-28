@@ -1,0 +1,94 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../images/jQuery_Project_Background_jQuery_project_background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1, h2 {
+	
+	font-family: 'Bangers', cursive;
+	color: #00FF6D;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	justify-content: center;
+	text-align: center;
+}
+
+
+
+h1 {
+	
+	font-size: 50px;
+	letter-spacing: 4px;
+}
+
+h2 {
+	
+	font-size: 30px;
+	letter-spacing: 4px;
+}
+
+p, .btn-guess, .btn-random, input {
+	
+	font-family: 'Comic Neue', cursive;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+#info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(0deg, rgba(227,227,227,0.5) 100%, rgba(170,170,170,1) 100%);
+	color: #ffffff;
+	text-shadow: 3px 4px 4px #000000;
+	font-size: 25px;
+	border-radius: 20px;
+	width: 1000px;
+	height: 300px;
+	margin: 10px auto;
+	font-weight: bold;
+	box-shadow: 3px 3px 15px 1px #000000;
+}
+
+.btn-random {
+	
+	width: 200px;
+	border-radius: 10px;
+	margin: 2px auto
+}
+
+.btn-guess {
+	
+	width: 80px;
+	border-radius: 10px;
+	margin: 10px auto
+}
+
+input {
+	text-align: center;
+	width: 200px;
+	margin: 2px auto;
+	background-color: #D8D8D8;
+}
+
+
