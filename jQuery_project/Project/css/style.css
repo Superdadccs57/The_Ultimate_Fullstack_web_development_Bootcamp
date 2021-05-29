@@ -47,7 +47,14 @@ p, .btn-guess, .btn-random, input {
 	font-family: 'Comic Neue', cursive;
 }
 
+p {
+	
+	color: #ffffff;
+	margin-bottom: 5px;
+}
+
 img {
+	display: none;
 	width: 200px;
 	height: 200px;
 	border-radius: 100px;

@@ -16,7 +16,9 @@ $(document).ready(function() {
 		$.get(`https://superheroapi.com/api.php/10165589462060227/${$randomHero}/`, function(data) {
 			
 			$("#name").text(data['name']);
-			$("img").attr("src", data['image']['url']);
+			$("img")
+				.attr("src", data['image']['url'])
+				.show();
 			
 		$('.btn-guess').on('click', function(e) {
 			e.preventDefault()
@@ -26,6 +28,8 @@ $(document).ready(function() {
 			} else {
 				alert('Please try again!')
 			}
+			
+			location.reload();
 		})	
 			
 				
