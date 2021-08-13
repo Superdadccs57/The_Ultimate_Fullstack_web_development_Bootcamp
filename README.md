@@ -5,5 +5,5 @@ This first project will be the Bootstrap 101 Project!
 
 ## jQuery Project is now added!
 
-## Python 101 is completed!
-    updated August 13, 2021
+## August 13, 2021 Python 101 is completed! 
+    
