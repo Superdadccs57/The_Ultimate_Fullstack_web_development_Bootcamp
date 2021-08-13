@@ -4,3 +4,5 @@ This Repo is for the files created during the Full Stack Bootcamp
 This first project will be the Bootstrap 101 Project!
 
 ## jQuery Project is now added!
+
+## Python 101 is completed!
